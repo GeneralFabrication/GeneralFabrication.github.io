@@ -1,0 +1,41 @@
+# Setup
+title: General Fabrication, Inc.
+tagline: high speed, low drag robotics
+url: https://genfab.co
+paginate: 1
+baseurl: ""
+permalink: pretty
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+author:
+  name: GenFab
+  url: https://twitter.com/genfabco
+  email: hello@genfab.co
+
+# Custom vars
+version: 3.0.0
